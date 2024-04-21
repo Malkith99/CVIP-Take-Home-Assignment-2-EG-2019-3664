@@ -12,7 +12,7 @@ def generate_image():
     cv2.fillPoly(image, [triangle_pts], color=200)
 
     # Draw a filled circle
-    cv2.circle(image, (170, 100), 50, 150, -1)  # Move the circle's center to (170, 100)
+    cv2.circle(image, (170, 100), 50, 150, -1) 
 
     # Set the background to pixel value
     image[image == 0] = 50
